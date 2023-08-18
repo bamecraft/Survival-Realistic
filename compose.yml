@@ -1,9 +1,9 @@
 version: "3"
 services:
-  TEMPLATE_EDIT_HERE:
+  survival-realistic:
     build:
       context: .
-    container_name: TEMPLATE_EDIT_HERE
+    container_name: survival-realistic
     restart: unless-stopped
     volumes:
       - ./server:/server
